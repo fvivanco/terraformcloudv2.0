@@ -1,4 +1,5 @@
 terraform {
+#comentamos cloud porque no es necesario cuando usamos CVS
 /*
   cloud {
     organization = "comunity001"
@@ -8,6 +9,7 @@ terraform {
     }
   }
 */
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
